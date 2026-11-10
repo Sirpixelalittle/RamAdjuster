@@ -1,0 +1,4 @@
+# Only this module's backing image is assigned this type.
+type ram_adjuster_file file_type
+allow kernel ram_adjuster_file file { read write }
+allow ksu ram_adjuster_file file { open read write getattr setattr unlink relabelfrom relabelto }

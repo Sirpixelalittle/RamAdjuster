@@ -1,0 +1,6 @@
+id=ram_adjuster
+name=Additional Swap
+version=1.0
+versionCode=1
+author=Local
+description=Adds 4 GiB of storage-backed swap after zRAM using an encrypted /data image. Action starts it and shows status. Supports KernelSU late load.
