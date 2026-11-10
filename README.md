@@ -1,8 +1,7 @@
 # Additional Swap
 
 A KernelSU module that adds **4 GiB of storage-backed swap** on an Android
-phone with stock zRAM already active. Built for KernelSU Next late load and
-NoMount. Module ID: `ram_adjuster`.
+phone with stock zRAM already active. Built for KernelSU Next late load. Module ID: `ram_adjuster`.
 
 ## Install and use
 
