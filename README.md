@@ -39,9 +39,7 @@ on storage. Restore KernelSU using your existing late-load procedure; its
   to read/write that type. KernelSU's root domain can manage the file. This
   avoids BusyBox `mkswap`'s desktop `swapfile_t` label, which Android rejects.
   These module rules live in memory; SELinux stays enforcing.
-- Leaves zRAM size/compression, swappiness, page-cluster,
-  system partitions, boot images, and the NoMount configuration unchanged.
-
+  
 Storage swap is slower than RAM/zRAM and adds flash writes. Its purpose is
 extra capacity under memory pressure; it does not add physical RAM or
 guarantee faster apps. Android can still kill apps through its memory manager.
